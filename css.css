@@ -1,0 +1,16 @@
+.shopbutton {
+    border-radius: 15px;
+    text-align: center;
+}
+.basic {
+    border-style: solid;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+.fit {
+    width: 50%;
+}
+.flex {
+    display: flex;
+}

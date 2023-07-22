@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="basic">
+        <h1>printer stuff</h1>
+        <div class="basic">
+            <h1>currency</h1>
+            <p id="display">0$</p>
+            <p id="display1">1I</p>
+            <p id="display2">1P</p>
+        </div>
+        <div class="flex">
+            <div class="fit basic">
+                <h1>actions</h1>
+                <button id="money">print money</button>
+            </div>
+            <div class="fit basic" id="upgrade1">
+                <h1>upgrades</h1>
+                <button id="upgrade1" class="shopbutton">get better printer ink (25$)</button>
+                <button id="upgrade2" class="shopbutton">buy a new printer (500$)</button>
+            </div>
+            <div class="fit basic" id="printershop">
+                <h1>printer upgrades</h1>
+                <button id="upgrade3" class="shopbutton">convert some printers to gold (25P)</button>
+            </div>
+        </div>
+    </div>
+    <div class="basic" id="goldlocked">
+        <h1>gold stuff</h1>
+            <div class="basic">
+            <h1>currency</h1>
+                <p id="display3">0G</p>
+            </div>
+            <div id="goldshop" class="basic">
+                <h1>el gold shop</h1>
+                <button id="upgrade4">gold printer (50G)</button>
+                <button id="upgrade5">a funny portal (100G)</button>
+                <button id="upgrade5">printer shop 10% coupon (decays by 50% every purchase) (3G)</button>
+                <button id="upgrade5">do a offering to the gods (1G)</button>
+            </div>
+    </div>
+  </body>
+</html>
